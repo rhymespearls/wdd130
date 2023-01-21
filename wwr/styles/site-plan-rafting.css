@@ -2,14 +2,14 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Serif&family=Sofia+Sans+Semi+Condensed&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #f77f00 ;
+  --primary-color: #2E73A4 ;
   --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --accent1-color: #DD471A;
+  --accent2-color: #E7C9D8;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
@@ -31,6 +31,9 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  font-family: 'Noto Serif', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Sofia Sans Semi Condensed', sans-serif;
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
@@ -98,8 +101,8 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
+background-color: #E7C9D8; 
+ line-height: 3em;
   text-align: center;
   font-size: 1.2em;
 }
