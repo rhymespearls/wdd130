@@ -1,17 +1,45 @@
 div{
-    max-width: 1600px; margin: 0 auto;
+    max-width: 1600px; 
+    margin: 0 auto;
+    align-items: center;
 }
 
 #background{
     height: 725px;
 }
+header, footer{
+    background-color: #E7C9D8; 
+    padding: 0rem;
+}
+
+header{
+    padding: 0.5rem;
+}
 
 body {
     background-color: #fcfbfb; 
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
-header {
-    background-color:rgba(20,30,13, .7);
+
+.icon {
+    width: 80px;
 }
-nav a:hover {
-    background-color: black;
+
+nav {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    background-color:  #E7C24F;
+}    
+.msg {
+    background-color:  #E7C9D8;
+    text-align: center;
 }
+
+footer p {
+    font-size: 1.2em;
+    text-decoration: underline;
+}    
+
