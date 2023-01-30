@@ -38,8 +38,17 @@ nav {
     text-align: center;
 }
 
-footer p {
+footer p  {
     font-size: 1.2em;
     text-decoration: underline;
+    text-align: left; 
 }    
+
+header img {
+    display: flex;
+}
+
+footer div a {
+    display: flex;
+}
 
