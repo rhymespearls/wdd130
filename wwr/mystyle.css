@@ -52,3 +52,19 @@ footer div a {
     display: flex;
 }
 
+#background{
+    height: 725px;
+    background-color: bisque;
+}
+
+#hero-box img{
+width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
