@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css?family=Prata|Neuton");
+
+header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 110px auto;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+}
+
+body {
+  background-color: brown;
+  width: 90%;
+  margin: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  color: #6f7364;
+  background-color: #C0FDFB;
+  font-family: "Prata", sans-serif;
+  line-height: 2em;
+  margin: 0 auto;
+  border-top: 5px double;
+  border-bottom: 5px double;
+}
+
+p {
+  font-family: "Neuton", sans-serif;
+  line-height: normal;
+  margin: 0.5em 0em 2em 0em;
+  font-size: 20px;
+  padding: 20px;
+}
+
+nav a {
+}
+
+ul li a {
+  font-family: "Neuton", sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  color: #C0FDFB;
+  font-size: 1.1em;
+  line-height: 0em;
+}
+
+ul li a:hover {
+  color: #6f7364;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: lightblue;
+  padding: 1em;
+}
+
+main {
+  background-color: yellow;
+}
+
+.banner-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner-box img {
+  width: 100%;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.action {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgba(240, 240, 240, 0.75);
+  margin: auto 10em;
+  padding: 40px;
+  text-align: center;
+  padding: 30px;
+  height: 100px;
+  width: 100%;
+}
+
+.action h3 {
+  font-family: Prata, Neuton;
+  font-weight: 200;
+}
+
+.action a {
+  width: 10em;
+  background-color: yellow;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 15px;
+  outline: 0;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  box-shadow: 5px 5px 5px #999;
+}
+
+.logo-box {
+  background-color: white;
+  border-radius: 50px 50px 0 0;
+  padding: 0.5em;
+  border: 1px solid #a43312;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* contact area */
+.contact-us {
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-us img {
+  border: 20px solid yellow;
+  padding: 5px;
+  width: 950px;
+  border-radius: 50px;
+  box-shadow: inset 5px 3px 10px #000;
+}
+
+.contact-us h3 {
+  margin-bottom: -10px;
+  font-size: 50px;
+  font-family: "Neuton", sans-serif;
+  text-transform: uppercase;
+  color: #CA3C25;
+  text-shadow: 3px 3px 1px #000;
+  letter-spacing: 4px;
+}
+
+.contact-us p {
+  font-size: 25px;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+
+/* bookings form codes */
+#bookings {
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+#bookings h3 {
+  font-size: 40px;
+  font-family: "Neuton", sans-serif;
+  text-transform: uppercase;
+  color: #CA3C25;
+  padding-top: 50px;
+  text-shadow: 3px 3px 1px #000;
+  letter-spacing: 4px;
+}
+
+#bookings .booking-container {
+  background: #ccc;
+  height: 600px;
+  width: 1000px;
+  margin: auto;
+}
+
+#bookings .booking-container form input {
+  padding: 15px;
+  margin: 10px;
+  width: 400px;
+  border-radius: 10px;
+  outline: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#bookings .booking-container form textarea {
+  width: 860px;
+  height: 100px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#bookings .booking-container form button {
+  padding: 15px 30px;
+  width: 885px;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: yellow;
+  color: #FFFFFF;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+#bookings .booking-container form button:hover {
+  background-color: yellow;
+}
+
+footer {
+  background-color: #457B9D;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+  align-items: center;
+  grid-column-gap: 40px;
+}
+footer p {
+  padding-left: 20px;
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.social {
+  margin-left: 200px;
+  padding: 10px 10px 10px 20px;
+  width: 100%;
+}
+
+.social img {
+  border-radius: 50px;
+  height: 50px;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+}
