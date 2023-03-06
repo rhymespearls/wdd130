@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .msg p {
-    font-size: .8em;
+    font-size: .7em;
     color: yellow;
     padding-bottom: 15px;
 }
@@ -76,7 +76,7 @@ nav a:hover {
 }
 .msg {
     background-color: #6f7364;
-    line-height: 3em;
+    line-height: 2em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
@@ -206,7 +206,7 @@ footer .social img {
 }
 
 .mountains {
-    grid-column: 6/10;
+    grid-column: 2/10;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #E7C24F;
     width: 80%;
