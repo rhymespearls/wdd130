@@ -2,13 +2,13 @@
 @import url(https://www.cssfontstack.com/);
 @import url('https://fonts.googleapis.com/css2?family=oswald:wght@300;400&display=swap') 
 
-
+/* 
 #content {
     max-width: 1600px;
     margin: 0auto;
     display: auto;
     align-items: center;
-}
+} */
 
 .button-box {
     text-align: center;
