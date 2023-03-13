@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nathlix - contact</title>
+    <link
+      rel="icon"
+      href="/wdd130/images/nathlix_logo.png"
+    />
+
+    <link rel="stylesheet" href="contact2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="" class="logo-image">
+          <img
+            src="/wdd130/images/nathlix_logo.png"
+            height="90px"
+            alt=" logo"
+          />
+        </a>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="search">
+          <input type="search" name="" value="" placeholder="Search..." />
+          <span>
+            <a href=""><button type="submit">Search</button></a>
+          </span>
+        </div>
+      </nav>
+    </header>
+    <!-- banner section with image and text -->
+    <div class="banner">
+      <div class="banner-content">
+        <h3>
+          About Us
+        </h3>
+        <p
+          style="bottom: 100px; color: white; font-size: 20px; width:50% !important; font-family:'Roboto', sans-serif; font-weight: 300; letter-spacing:2px;"
+        >
+          <br />
+          Welcome to <i style="color: yellow;"><b>Nathlix Home Decor</b></i>Where Decoration Is Our Number 1 Priority
+        </p>
+        <span>
+          <img
+            src="/wdd130/images/contactus2.png.jpg"
+            height="250px"
+               width="400"
+            alt="Contact us"
+          />
+          <p>Nathlix</p>
+          <a href="tel:+233551046283">
+            Call Us <i class="fa fa-phone-alt"></i
+          ></a>
+        </span>
+        <a
+          href="https://goo.gl/maps/4KHsaB7jGqMUsrWAA"
+          class="btn"
+          target="_blank"
+          >Visit Us <i class="fa fa-location"></i
+        ></a>
+      </div>
+    </div>
+    <!--body here-->
+    <section id="contact">
+      <h2>
+        Visit Us
+      </h2>
+      <hr />
+      <div class="box-main">
+        <div class="box-text">
+          <br />
+          <i class="fa fa-laptop"></i>
+          <h5>
+            Contact
+          </h5>
+          <br />
+          <hr />
+          <p>
+            Visit Us today at Our office, or calls or send Us a text via email  <br />
+            Rexburg, Idaho <br />
+            Tel: (986) 231-8350 <br />
+            Email: akuokojeremiah06@gmail.com
+          </p>
+        </div>
+        <div class="box-text">
+          <br />
+          <i class="fa fa-credit-card"></i>
+          <h5>
+            BOOK A DATE WITH Nathlix
+          </h5>
+          <br />
+          <hr />
+          <p>
+             <form action="/my-handling-form-page" method="post">
+  
+ <ul>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+   
+  <li>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </li>
+   
+  <li>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+   
+   <li class="button">
+  <button type="submit">Send your message</button>
+</li>
+ </ul>
+</form>
+
+<div id="feedback"></div>
+<script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+  </script>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-text">
+        Copyright &copy; 2023 Jeremiah K. Akuoko -Nathlix-
+      </div>
+      <li><a href="site-plan2.html">Site Plan</a></li>
+    </footer>
+  </body>
+</html>
