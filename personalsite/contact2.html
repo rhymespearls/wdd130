@@ -10,7 +10,7 @@
       href="/wdd130/images/nathlix_logo.png"
     />
 
-    <link rel="stylesheet" href="contact2.css" />
+    <link rel="stylesheet" href="../personalsite/contact2.css" />
 
     <link
       rel="stylesheet"
@@ -22,14 +22,16 @@
       <nav>
         <a href="" class="logo-image">
           <img
-            src="/wdd130/images/nathlix_logo.png"
+            src="../images/nathlix_logo.png"
             height="90px"
             alt=" logo"
           />
         </a>
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="../personalsite/index2.html" >Home</a></li>
+          <li><a href="../personalsite/about.html">About</a></li>
+          <li><a href="../personalsite/contact2.html" class="active">Contact</a></li>
+          <li><a href="../personalsite/web_component.html">Card</a></li>
         </ul>
         <div class="search">
           <input type="search" name="" value="" placeholder="Search..." />
@@ -49,11 +51,11 @@
           style="bottom: 100px; color: white; font-size: 20px; width:50% !important; font-family:'Roboto', sans-serif; font-weight: 300; letter-spacing:2px;"
         >
           <br />
-          Welcome to <i style="color: yellow;"><b>Nathlix Home Decor</b></i>Where Decoration Is Our Number 1 Priority
+          Welcome to <i style="color: yellow;"><b>Nathlix Home Decor</b></i> <br> Where Decoration Is Our Number 1 Priority
         </p>
         <span>
           <img
-            src="/wdd130/images/contactus2.png.jpg"
+            src="../images/contactus2.png.jpg"
             height="250px"
                width="400"
             alt="Contact us"
@@ -103,27 +105,20 @@
           <hr />
           <p>
              <form action="/my-handling-form-page" method="post">
-  
- <ul>
-  <li>
+  <form action="../personalsite/contact2.html">
     <label for="name">Name:</label>
     <input type="text" id="name" name="user_name">
-  </li>
+  
    
-  <li>
+ 
     <label for="mail">E-mail:</label>
     <input type="email" id="mail" name="user_email">
-  </li>
+ 
    
-  <li>
     <label for="msg">Message:</label>
     <textarea id="msg" name="user_message"></textarea>
-  </li>
    
-   <li class="button">
   <button type="submit">Send your message</button>
-</li>
- </ul>
 </form>
 
 <div id="feedback"></div>

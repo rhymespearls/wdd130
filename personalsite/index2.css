@@ -28,7 +28,7 @@ header nav {
 }
 
 nav a img {
-  right: 500px;
+  right: 400px;
   padding: 1px;
   top: 5px;
   border: 1px solid #565273;
@@ -145,7 +145,7 @@ h6 {
 .banner-content span {
   float: right;
   right: 200px;
-  bottom: 300px;
+  bottom: 335px;
   border-radius: 10px;
   border: 5px solid #fff;
   padding: 20px 30px;
